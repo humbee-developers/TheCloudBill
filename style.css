@@ -2411,7 +2411,7 @@ html {
   
   .primary-button {
     border-radius: var(--border-radius--8px);
-    background-color: #1084B9 ;
+    background-color: #1084B9 !important;
     color: var(--color--white);
     text-transform: capitalize;
     border: 1px solid rgba(255, 255, 255, .3);
