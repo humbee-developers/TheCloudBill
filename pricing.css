@@ -360,7 +360,8 @@ html {
     font-size: 12px !important;
     line-height: 14px !important;
     text-decoration: none !important;
-    display: inline-block !important;
+    display: none !important;
+    /* display: inline-block !important; */
     position: fixed !important;
     top: auto !important;
     bottom: 12px !important;
@@ -2410,7 +2411,7 @@ html {
   
   .primary-button {
     border-radius: var(--border-radius--8px);
-    background-color: var(--color--black);
+    background-color: #1084B9 ;
     color: var(--color--white);
     text-transform: capitalize;
     border: 1px solid rgba(255, 255, 255, .3);
@@ -3404,7 +3405,7 @@ html {
   
   .integration-cta-button-inner {
     border-radius: var(--border-radius--8px);
-    background-color: var(--background--bg-black);
+    background-color: #1084b9;
     color: var(--color--white);
     justify-content: center;
     align-items: center;
@@ -4711,7 +4712,7 @@ html {
   .subscribe-form-submit-button {
     z-index: 2;
     border-radius: var(--border-radius--6px);
-    background-color: var(--color--transparent);
+    /* background-color: var(--color--transparent); */
     padding: 12px 24px;
     font-weight: 700;
     line-height: 1.5;
@@ -4902,7 +4903,7 @@ html {
   }
   
   .pricing-card.pricing-pro {
-    background-color: var(--color--blue);
+    background-color: #2b3960;
     color: var(--color--white);
   }
   
@@ -5010,7 +5011,7 @@ html {
   
   .pricing-discount-badge.enterprise-badge {
     color: #26143b;
-    background-color: #c793ff;
+    background-color: #6799e0;
   }
   
   .pricing-discount-text {
@@ -5034,7 +5035,7 @@ html {
   }
   
   .pricing-tab-link.w--current {
-    background-color: var(--background--bg-black);
+    background-color: #2b3960;
     color: var(--color--white);
   }
   
